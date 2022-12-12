@@ -1,0 +1,39 @@
+#=================RMAS========================================
+Test:
+  batch_size: 1
+  ckpt: ../checkpoints/RMAS/rmas.pth   
+  test_image_dir: /home/fzq/dataset/RMAS/test/img/
+  test_lbl_dir: /home/fzq/dataset/RMAS/test/label/
+  test_size: 352
+  testset_name: RMAS
+
+Train:
+  batch_size: 16
+  epoch_num: 200
+  net: RMAS
+  optimizer_lr: 0.0001
+  tra_image_dir: /home/fzq/dataset/RMAS/train/img/
+  tra_lbl_dir: /home/fzq/dataset/RMAS/train/label/
+  train_size: 352
+
+
+#=================MAS3K=======================================
+# Test:
+#   batch_size: 1
+#   ckpt: ../checkpoints/MAS/mas3k.pth               
+#   test_image_dir: /home/fzq/dataset/MAS3K/test/Image/
+#   test_lbl_dir: /home/fzq/dataset/MAS3K/test/Mask/
+#   test_size: 352
+#   testset_name: MAS
+
+# Train:
+#   batch_size: 16
+#   epoch_num: 200
+#   net: MAS
+#   optimizer_lr: 0.0001
+#   tra_image_dir: /home/fzq/dataset/MAS3K/train/Image/
+#   tra_lbl_dir: /home/fzq/dataset/MAS3K/train/Mask/
+#   train_size: 352
+
+
+exp_name: Pytorch MASNet 
