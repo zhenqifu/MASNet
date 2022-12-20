@@ -7,7 +7,7 @@ In this project, we use Ubuntu 16.04.5, Python 3.7, Pytorch 1.7.1 and two NVIDIA
 
 ### Testing
 
-Download the pretrained model [pre-trained model (baidu)](https://pan.baidu.com/s/11HCTFlHOgesSPCjsjINN2g)(t4dg).
+Download the pretrained model [pre-trained model](https://drive.google.com/file/d/1SKRIxUnG1GEA5h1mfSf2YbpPiFBmNaD8/view?usp=share_link).
 
 Check the model and image pathes in config.yaml and scripts/test.py, then run:
 
@@ -17,7 +17,7 @@ python test.py
 
 ### Training
 
-To train the model, you need to first prepare our [dataset](https://drive.google.com).
+To train the model, you need to first prepare our [dataset](https://drive.google.com/file/d/1RNP_zJgbJeY5ibEcVfYQMgxMBjbfkT0B/view?usp=share_link).
 
 Check the dataset path in config.yaml, and then run:
 ```
