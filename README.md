@@ -17,7 +17,7 @@ python test.py
 
 ### Training
 
-To train the model, you need to first prepare our [dataset](https://drive.google.com/file/d/1RNP_zJgbJeY5ibEcVfYQMgxMBjbfkT0B/view?usp=share_link).
+To train the model, you need to first prepare our [RMAS dataset](https://drive.google.com/file/d/1RNP_zJgbJeY5ibEcVfYQMgxMBjbfkT0B/view?usp=share_link), or MAS3K dataset [MAS3K dataset](https://github.com/LinLi-DL/MAS).
 
 Check the dataset path in config.yaml, and then run:
 ```
