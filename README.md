@@ -1,4 +1,5 @@
-The Pytorch Implementation of 'MASNet: A Robust Deep Marine Animal Segmentation Network'[Paper](https://ieeexplore.ieee.org/document/10113781?denied=)
+# MASNet: A Robust Deep Marine Animal Segmentation Network([Paper](https://ieeexplore.ieee.org/document/10113781?denied=))
+The Pytorch Implementation of ''MASNet: A Robust Deep Marine Animal Segmentation Network''
 
 ## Introduction
 In this project, we use Ubuntu 16.04.5, Python 3.7, Pytorch 1.7.1 and two NVIDIA RTX 2080Ti GPU. 
