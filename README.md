@@ -30,7 +30,13 @@ python train.py
 If you find MASNet is useful in your research, please cite our paper:
 
 ```
-
+@ARTICLE{10113781,
+  author={Fu, Zhenqi and Chen, Ruizhe and Huang, Yue and Cheng, En and Ding, Xinghao and Ma, Kai-Kuang},
+  journal={IEEE Journal of Oceanic Engineering}, 
+  title={MASNet: A Robust Deep Marine Animal Segmentation Network}, 
+  year={2023},
+  pages={1-12},
+  doi={10.1109/JOE.2023.3252760}}
 ```
 
 
